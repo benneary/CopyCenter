@@ -1,0 +1,44 @@
+// Colors
+$bg-blue:  rgba(49, 58, 74, 1);
+
+$white: rgba(255, 255, 255, 1);
+
+$orange: rgba(237, 88, 55, 1);
+
+$dark-grey: rgba(51, 51, 51, 1);
+
+$bg-grey: rgba(220, 220, 220, 1);
+
+$light-blue: rgba(51, 153, 255, 1);
+
+$grey-2: rgba(102, 102, 102, 1);
+
+$yellow: rgba(255, 204, 102, 1);
+
+
+.dark-grey {
+	color: $dark-grey;
+}
+
+.grey-2 {
+	color: $grey-2;
+}
+
+// Font Sizes
+
+h1 {
+	font-size: 1.3em;
+	font-weight: 500;
+	margin: 0;
+	float: left;
+	letter-spacing: 0.03em;
+}
+
+p {
+	margin: 0;
+	float: left;
+	font-weight: 300;
+}
+
+
+@import "layoutgrid";

@@ -1,0 +1,391 @@
+/* line 19, SASS/_variables.scss */
+.dark-grey {
+  color: #333333;
+}
+
+/* line 23, SASS/_variables.scss */
+.grey-2 {
+  color: #666666;
+}
+
+/* line 29, SASS/_variables.scss */
+h1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 0;
+  float: left;
+  letter-spacing: 0.03em;
+}
+
+/* line 37, SASS/_variables.scss */
+p {
+  margin: 0;
+  float: left;
+  font-weight: 300;
+}
+
+/* line 1, SASS/_layoutgrid.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 2, SASS/_layoutgrid.scss */
+.col-11 {
+  width: 91%;
+}
+
+/* line 3, SASS/_layoutgrid.scss */
+.col-10 {
+  width: 83%;
+}
+
+/* line 4, SASS/_layoutgrid.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 5, SASS/_layoutgrid.scss */
+.col-8 {
+  width: 66%;
+}
+
+/* line 6, SASS/_layoutgrid.scss */
+.col-7 {
+  width: 58%;
+}
+
+/* line 7, SASS/_layoutgrid.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 8, SASS/_layoutgrid.scss */
+.col-5-5 {
+  width: 48%;
+}
+
+/* line 9, SASS/_layoutgrid.scss */
+.col-5 {
+  width: 42%;
+}
+
+/* line 10, SASS/_layoutgrid.scss */
+.col-4 {
+  width: 33%;
+}
+
+/* line 11, SASS/_layoutgrid.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 12, SASS/_layoutgrid.scss */
+.col-2 {
+  width: 16%;
+}
+
+/* line 13, SASS/_layoutgrid.scss */
+.col-1 {
+  width: 8%;
+}
+
+/* line 14, SASS/_layoutgrid.scss */
+.col-0-5 {
+  width: 4%;
+}
+
+/* line 15, SASS/_layoutgrid.scss */
+.float {
+  float: left;
+}
+
+/* line 1, SASS/_body.scss */
+body {
+  font-family: "Helvetica", "Arial", Sans-Serif;
+  background-color: #edf1f2;
+}
+
+/* line 6, SASS/_body.scss */
+.copy-center-body {
+  width: 100%;
+  float: left;
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+  margin-top: 5em;
+}
+
+/* line 19, SASS/_body.scss */
+.cc-header {
+  background-color: #313a4a;
+  color: white;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 28, SASS/_body.scss */
+.cc-nav {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-left: 2.4em;
+  padding-right: 2.4em;
+}
+
+/* line 35, SASS/_body.scss */
+.cc-input-check {
+  background-color: gainsboro !important;
+  border: 1px solid gainsboro !important;
+  padding: 0.8em 0.75em!important;
+}
+
+/* line 41, SASS/_body.scss */
+.nav-item-active {
+  color: #ed5837 !important;
+}
+
+/* line 45, SASS/_body.scss */
+.cc-nav-item {
+  float: left;
+  color: #333333;
+  font-size: 1.1em;
+  margin-left: 1.35em;
+  margin-right: 1.35em;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* line 55, SASS/_body.scss */
+.cc-nav-item:hover {
+  color: #ed5837;
+}
+
+/* line 59, SASS/_body.scss */
+.cc-form {
+  padding: 2em;
+  background-color: gainsboro;
+}
+
+/* line 64, SASS/_body.scss */
+.cc-form-row {
+  float: left;
+  width: 100%;
+}
+
+/* line 69, SASS/_body.scss */
+.cc-form-row-check {
+  float: left;
+  width: 100%;
+}
+
+/* line 74, SASS/_body.scss */
+.cc-form-btn {
+  color: #fff;
+  background-color: #666666;
+  border-color: none;
+  display: inline-block;
+  padding: 6px 22px;
+  margin-bottom: 0;
+  letter-spacing: 0.04em;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+/* line 98, SASS/_body.scss */
+.cc-form-btn:hover {
+  background-color: #4f4f4f;
+}
+
+/* line 102, SASS/_body.scss */
+.cc-form-btn:focus {
+  outline: none;
+  background-color: #3399ff;
+}
+
+/* line 107, SASS/_body.scss */
+.cc-underline {
+  height: 4px;
+  float: left;
+  width: 100%;
+  background-color: #ed5837;
+}
+
+/* line 114, SASS/_body.scss */
+.cc-form-input {
+  float: left;
+  border-radius: 0.4em;
+  background-color: white;
+  border: none;
+  padding: 0.7em 1em;
+  color: #666666;
+  font-size: 1.2em;
+  border: 1px solid white;
+  margin-bottom: 1.2em;
+  font-weight: 300;
+  text-align: left;
+}
+/* line 127, SASS/_body.scss */
+.cc-form-input textarea {
+  resize: none!important;
+}
+
+/* line 132, SASS/_body.scss */
+.cc-form-input-check {
+  float: left;
+  border-radius: 0.4em;
+  border: none;
+  padding: 0.5em 1em;
+  color: #666666;
+  font-size: 1em;
+  margin-bottom: 0em;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* line 144, SASS/_body.scss */
+.cc-form-input-select {
+  float: left;
+  border-radius: 0.4em;
+  background-color: white;
+  border: none;
+  padding: 0.7em 1em;
+  color: #666666;
+  font-size: 1.15em;
+  border: 1px solid white;
+  margin-bottom: 1.2em;
+  font-weight: 300;
+  overflow: hidden;
+  background-color: #fff;
+  background: #fff;
+}
+/* line 161, SASS/_body.scss */
+.cc-form-input-select select {
+  background-color: white;
+  width: 90%;
+  box-shadow: none;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+/* line 173, SASS/_body.scss */
+.cc-form-input-select:after {
+  float: right;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border-color: white;
+  border-top-color: #666666;
+  border-width: 8px;
+  margin-top: 7px;
+  z-index: 100;
+}
+
+/* line 188, SASS/_body.scss */
+.cc-form-input-select
+select:focus {
+  outline: none;
+}
+
+/* line 192, SASS/_body.scss */
+.cc-form-input-i {
+  width: 80%;
+  float: left;
+  background-color: white;
+  border: none;
+  color: #666666;
+  font-size: 0.95em;
+  border: none;
+  font-weight: 300;
+}
+
+/* line 203, SASS/_body.scss */
+.cc-form-input-i:focus {
+  outline: none;
+}
+
+/* line 207, SASS/_body.scss */
+.cc-form-input:focus {
+  border: 1px solid #3399ff;
+  outline: none;
+  color: #3399ff;
+}
+
+/* line 213, SASS/_body.scss */
+.cc-progress-row {
+  margin-bottom: 1em;
+  float: left;
+  width: 100%;
+}
+
+/* line 219, SASS/_body.scss */
+.cc-progress-bar {
+  background-color: white;
+  width: 100%;
+  float: left;
+}
+
+/* line 225, SASS/_body.scss */
+.cc-progress-txt {
+  color: #666666;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* line 232, SASS/_body.scss */
+.cc-progress-percent {
+  color: #666666;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: right;
+}
+
+/* line 239, SASS/_body.scss */
+.cc-progress-bar-fill {
+  width: 80%;
+  background-color: #ffcc66;
+  float: left;
+}
+
+/* line 1, SASS/_navbar.scss */
+.navbar-brand {
+  font-weight: 100;
+  font-size: 1em;
+}
+
+/* line 6, SASS/_navbar.scss */
+.enviroment-txt {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* line 16, SASS/_navbar.scss */
+.custom-nav {
+  font-size: 0.85em;
+  font-weight: 400;
+  color: white;
+}
